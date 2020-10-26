@@ -1,0 +1,298 @@
+/*File made by @CrisXolt.
+//(c) Don't use any code design without permission!*/
+{
+  "namespace": "video_tooltips_dx",
+
+  "tooltip_label_base@common_dx.hover_text_label": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "default", "default" ]
+  },
+
+  "tooltip_text_panel": {
+    "type": "image",
+    "texture": "textures/ui/white",
+    "color": [ 0.0, 0.0, 0.0 ],
+    "alpha": 0.75,
+    "layer": 100,
+    "$tooltip_text_1|default": "",
+    "$tooltip_text_2|default": "",
+    "$tooltip_text_3|default": "",
+    "$tooltip_text_4|default": "",
+    "$tooltip_text_5|default": "",
+    "$tooltip_text_6|default": "",
+    "$tooltip_text_7|default": "",
+    "$tooltip_text_8|default": "",
+    "controls": [
+      {
+        "text_1@video_tooltips_dx.tooltip_label_base": {
+          "offset": [ 5, 4 ],
+          "text": "$tooltip_text_1"
+        }
+      },
+      {
+        "text_2@video_tooltips_dx.tooltip_label_base": {
+          "offset": [ 5, 15 ],
+          "text": "$tooltip_text_2"
+        }
+      },
+      {
+        "text_3@video_tooltips_dx.tooltip_label_base": {
+          "offset": [ 5, 26 ],
+          "text": "$tooltip_text_3"
+        }
+      },
+      {
+        "text_4@video_tooltips_dx.tooltip_label_base": {
+          "offset": [ 5, 37 ],
+          "text": "$tooltip_text_4"
+        }
+      },
+      {
+        "text_5@video_tooltips_dx.tooltip_label_base": {
+          "offset": [ 5, 48 ],
+          "text": "$tooltip_text_5"
+        }
+      },
+      {
+        "text_6@video_tooltips_dx.tooltip_label_base": {
+          "offset": [ 5, 59 ],
+          "text": "$tooltip_text_6"
+        }
+      },
+      {
+        "text_7@video_tooltips_dx.tooltip_label_base": {
+          "offset": [ 5, 70 ],
+          "text": "$tooltip_text_7"
+        }
+      },
+      {
+        "text_8@video_tooltips_dx.tooltip_label_base": {
+          "offset": [ 5, 81 ],
+          "text": "$tooltip_text_8"
+        }
+      }
+    ]
+  },
+
+  "graphics_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 110 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.graphics.tooltip.1",
+    "$tooltip_text_2": "options.graphics.tooltip.2",
+    "$tooltip_text_3": "options.graphics.tooltip.3",
+    "$tooltip_text_4": "options.graphics.tooltip.4"
+  },
+
+  "view_bobbing_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, 68 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.viewBobbing.tooltip.1",
+    "$tooltip_text_2": "options.viewBobbing.tooltip.2"
+  },
+
+  "vsync_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 68 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.vsync.tooltip.1",
+    "$tooltip_text_2": "options.vsync.tooltip.2",
+    "$tooltip_text_3": "options.vsync.tooltip.3",
+    "$tooltip_text_4": "options.vsync.tooltip.4",
+    "$tooltip_text_5": "options.vsync.tooltip.5",
+    "$tooltip_text_6": "options.vsync.tooltip.6",
+    "$tooltip_text_7": "options.vsync.tooltip.7",
+    "$tooltip_text_8": "options.vsync.tooltip.8"
+  },
+
+  "smooth_lighting_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 89 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.ao.tooltip.1",
+    "$tooltip_text_2": "options.ao.tooltip.2",
+    "$tooltip_text_3": "options.ao.tooltip.3"
+  },
+
+  "render_distance_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, 110 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.renderDistance.tooltip.1",
+    "$tooltip_text_2": "options.renderDistance.tooltip.2",
+    "$tooltip_text_3": "options.renderDistance.tooltip.3",
+    "$tooltip_text_4": "options.renderDistance.tooltip.4",
+    "$tooltip_text_5": "options.renderDistance.tooltip.5",
+    "$tooltip_text_6": "options.renderDistance.tooltip.6",
+    "$tooltip_text_7": "options.renderDistance.tooltip.7",
+    "$tooltip_text_8": "options.renderDistance.tooltip.8"
+  },
+
+  "max_framerate_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, 89 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.framerateLimit.tooltip.1",
+    "$tooltip_text_2": "options.framerateLimit.tooltip.2",
+    "$tooltip_text_3": "options.framerateLimit.tooltip.3",
+    "$tooltip_text_4": "options.framerateLimit.tooltip.4",
+    "$tooltip_text_5": "options.framerateLimit.tooltip.5"
+  },
+
+  "brightness_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 26 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.gamma.tooltip.1",
+    "$tooltip_text_2": "options.gamma.tooltip.2",
+    "$tooltip_text_3": "options.gamma.tooltip.3",
+    "$tooltip_text_4": "options.gamma.tooltip.4",
+    "$tooltip_text_5": "options.gamma.tooltip.5",
+    "$tooltip_text_6": "options.gamma.tooltip.6"
+  },
+
+  "fullscreen_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, 47 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.fullscreen.tooltip.1",
+    "$tooltip_text_2": "options.fullscreen.tooltip.2",
+    "$tooltip_text_3": "options.fullscreen.tooltip.3",
+    "$tooltip_text_4": "options.fullscreen.tooltip.4",
+    "$tooltip_text_5": "options.fullscreen.tooltip.5"
+  },
+
+  "screen_animations_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, 26 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.screenAnimations.tooltip.1",
+    "$tooltip_text_2": "options.screenAnimations.tooltip.2",
+    "$tooltip_text_3": "options.screenAnimations.tooltip.3"
+  },
+
+  "gui_scale_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 47 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.guiScale.tooltip.1",
+    "$tooltip_text_2": "options.guiScale.tooltip.2",
+    "$tooltip_text_3": "options.guiScale.tooltip.3",
+    "$tooltip_text_4": "options.guiScale.tooltip.4",
+    "$tooltip_text_5": "options.guiScale.tooltip.5",
+    "$tooltip_text_6": "options.guiScale.tooltip.6"
+  },
+
+  "field_of_view_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, -100 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.fov.toggle.tooltip.1",
+    "$tooltip_text_2": "options.fov.toggle.tooltip.2",
+    "$tooltip_text_3": "options.fov.toggle.tooltip.3",
+    "$tooltip_text_4": "options.fov.toggle.tooltip.4",
+    "$tooltip_text_5": "options.fov.toggle.tooltip.5"
+  },
+
+  "render_clouds_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, -100 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.renderclouds.tooltip.1",
+    "$tooltip_text_2": "options.renderclouds.tooltip.2",
+    "$tooltip_text_3": "options.renderclouds.tooltip.3",
+    "$tooltip_text_4": "options.renderclouds.tooltip.4"
+  },
+
+  "particle_render_distance_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 110 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.particleRenderDistance.tooltip.1",
+    "$tooltip_text_2": "options.particleRenderDistance.tooltip.2",
+    "$tooltip_text_3": "options.particleRenderDistance.tooltip.3",
+    "$tooltip_text_4": "options.particleRenderDistance.tooltip.4",
+    "$tooltip_text_5": "options.particleRenderDistance.tooltip.5"
+  },
+
+  "fancy_bubbles_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, 110 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.bubbleparticles.tooltip.1",
+    "$tooltip_text_2": "options.bubbleparticles.tooltip.2",
+    "$tooltip_text_3": "options.bubbleparticles.tooltip.3",
+    "$tooltip_text_4": "options.bubbleparticles.tooltip.4",
+    "$tooltip_text_5": "options.bubbleparticles.tooltip.5",
+    "$tooltip_text_6": "options.bubbleparticles.tooltip.6"
+  },
+
+  "msaa_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, 89 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.msaa.tooltip.1",
+    "$tooltip_text_2": "options.msaa.tooltip.2",
+    "$tooltip_text_3": "options.msaa.tooltip.3",
+    "$tooltip_text_4": "options.msaa.tooltip.4",
+    "$tooltip_text_5": "options.msaa.tooltip.5",
+    "$tooltip_text_6": "options.msaa.tooltip.6",
+    "$tooltip_text_7": "options.msaa.tooltip.7",
+    "$tooltip_text_8": "options.msaa.tooltip.8"
+  },
+
+  "texel_anti_aliasing_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 89 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.texelAA.tooltip.1",
+    "$tooltip_text_2": "options.texelAA.tooltip.2",
+    "$tooltip_text_3": "options.texelAA.tooltip.3",
+    "$tooltip_text_4": "options.texelAA.tooltip.4",
+    "$tooltip_text_5": "options.texelAA.tooltip.5",
+    "$tooltip_text_6": "options.texelAA.tooltip.6",
+    "$tooltip_text_7": "options.texelAA.tooltip.7",
+    "$tooltip_text_8": "options.texelAA.tooltip.8"
+  },
+
+  "fancy_clouds_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ -155, 68 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.fancyskies.tooltip.1",
+    "$tooltip_text_2": "options.fancyskies.tooltip.2",
+    "$tooltip_text_3": "options.fancyskies.tooltip.3",
+    "$tooltip_text_4": "options.fancyskies.tooltip.4"
+  },
+
+  "fancy_leaves_tooltip_text@video_tooltips_dx.tooltip_text_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 68 ],
+    "size": [ 300, 94 ],
+    "$tooltip_text_1": "options.leaves.tooltip.1",
+    "$tooltip_text_2": "options.leaves.tooltip.2",
+    "$tooltip_text_3": "options.leaves.tooltip.3",
+    "$tooltip_text_4": "options.leaves.tooltip.4",
+    "$tooltip_text_5": "options.leaves.tooltip.5"
+  }
+}
